@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment"
+    android:background="#EDD4FF" >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="PRIMEIRO FRAGMENT"
+        android:textSize="30dp"
+        android:textColor="#6500DB"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#6500DB"
+        android:textSize="20dp"
+        android:text="MUDAR DE TELA"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="305dp"
+        android:layout_height="274dp"
+        android:layout_gravity="center"
+        android:src="@drawable/img_5" />
+
+
+</FrameLayout>
